@@ -19,6 +19,7 @@ body {
     font-size: 48px;
     display: flex;
     padding: 80px;
+    justify-content: center;
 }
 .boxone,
 li {
@@ -28,6 +29,7 @@ li {
 
 .boxone{
     margin-right: 10px;
+    width: 450px;
 }
 
 li {
@@ -93,10 +95,26 @@ p {
     flex-wrap: wrap;
     text-align: center;
     color: #1f2937;
+    
 }
 
 h2 {
     font-size: 32px;
     font-weight: bolder;
     color: #1f2937;
+}
+
+.thor {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic; 
+    color: #1f2937;
+
+}
+
+.gmathor {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin: auto;
 }
