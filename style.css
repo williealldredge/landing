@@ -66,5 +66,37 @@ button {
 }
 
 img {
-    border-radius: 180px;
+    width: 150px;
+    border-radius: 20%
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vegbox {
+    display: flex;
+}
+
+.photobox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:  200px;
+    margin: 20px;
+}
+
+p {
+    flex-wrap: wrap;
+    text-align: center;
+    color: #1f2937;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #1f2937;
 }
