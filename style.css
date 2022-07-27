@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
+
+}
+
+.awesomebox{
+    color: #f9faf8;
+    font-size: 48px;
+    display: flex;
+    flex-direction: column;
+}
+.awesomeone,
+li {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
