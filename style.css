@@ -56,13 +56,13 @@ h1 {
     color: #f9faf8;
 }
 
-button {
+.button {
     background-color: #3882f6;
     border: none;
     border-radius: 4px;
     margin-top: 10px;
     color: white;
-    width: 80;
+    width: 110;
     height: 35;
     font-weight: 700;
 }
@@ -118,3 +118,37 @@ h2 {
     width: 900px;
     margin: auto;
 }
+
+.signup {
+    display: flex;
+    justify-content: center;
+}
+
+.signback {
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 950;
+    display: flex;
+    margin: 80;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signtext {
+    margin: 40px;
+    color: white;
+}
+
+.buttonbottom{
+    background-color: #3882f6;
+    border-radius: 4px;
+    margin-top: 10px;
+    color: white;
+    width: 110;
+    height: 35;
+    font-weight: 700;
+    border-color: white;
+}
+
+
+
